@@ -1,4 +1,4 @@
-=begin
+
 def square_array(array)
   # your code here
   squared_array = []
@@ -7,8 +7,9 @@ def square_array(array)
   end
   squared_array
 end
-=end
 
+
+=begin
 def square_array(array)
   squared_array = []
   array.each do |array|
@@ -18,3 +19,4 @@ def square_array(array)
 end 
 numbers = [2, 4, 6]
 puts square_array(numbers)
+=end
