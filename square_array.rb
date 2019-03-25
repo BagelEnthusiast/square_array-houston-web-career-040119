@@ -12,7 +12,7 @@ end
 def square_array(array)
   squared_array = []
   array.each do |array|
-    array.collect
+    array.collect {
 end 
 numbers = [2, 4, 6]
 puts square_array(numbers)
